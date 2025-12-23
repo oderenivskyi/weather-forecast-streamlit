@@ -10,7 +10,7 @@ st.set_page_config(page_title="Прогноз дощу в Австралії", p
 
 @st.cache_resource
 def load_model():
-    model = joblib.load('model.joblib')
+    model = joblib.load('model/rain_prediction.joblib')
     return model
 
 pipeline = load_model()
