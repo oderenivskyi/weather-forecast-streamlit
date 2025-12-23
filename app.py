@@ -19,7 +19,7 @@ pipeline = load_model()
 
 st.title("Прогноз дощу в Австралії")
 st.markdown("""
-Цей додаток використовує модель машинного навчання для прогнозування, чи піде дощ завтра використовуючи метеорологічні дані сьогодні.
+Цей додаток використовує модель машинного навчання для прогнозування чи піде дощ завтра використовуючи метеорологічні дані сьогодні.
 """)
 
 locations = ['Adelaide', 'Albany', 'Albury', 'AliceSprings', 'BadgerysCreek', 'Ballarat', 'Bendigo', 'Brisbane', 'Cairns', 'Canberra', 'Cobar', 'CoffsHarbour', 'Dartmoor', 'Darwin', 'GoldCoast', 'Hobart', 'Katherine', 'Launceston', 'Melbourne', 'MelbourneAirport', 'Mildura', 'Moree', 'MountGambier', 'MountGinini', 'Newcastle', 'Nhil', 'NorahHead', 'NorfolkIsland', 'Nuriootpa', 'PearceRAAF', 'Penrith', 'Perth', 'PerthAirport', 'Portland', 'Richmond', 'Sale', 'SalmonGums', 'Sydney', 'SydneyAirport', 'Townsville', 'Tuggeranong', 'Uluru', 'WaggaWagga', 'Walpole', 'Watsonia', 'Williamtown', 'Witchcliffe', 'Wollongong', 'Woomera']
